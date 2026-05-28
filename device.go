@@ -5,3 +5,11 @@ type Device struct {
 	Name   string
 	Online bool
 }
+
+func (d *Device) Connect() {
+	d.Online = true
+}
+
+func (d *Device) Disconnect() {
+	d.Online = false
+}

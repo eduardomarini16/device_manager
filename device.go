@@ -1,7 +1,7 @@
 package main
 
 type Device struct {
-	ID     string
+	ID     int
 	Name   string
 	Online bool
 }
